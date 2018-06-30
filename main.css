@@ -10,7 +10,7 @@ p {
   font-size: 1.1em;
   font-weight: 300;
   line-height: 1.7em;
-  color: #999;
+  color: black;
 }
 
 a,
@@ -269,7 +269,7 @@ Turn
 
 .parallax1 {
   /* The image used */
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr4uxqHMi1W2czHjH0pjFLYeTJ1ECAFl_W6m_9vEQqQVQ_TyS2-A");
+  background-image: url("images/IMG_1039.JPG");
 
   /* Full height */
   height: 600px;
@@ -288,7 +288,7 @@ Turn
 
 .parallax2 {
   /* The image used */
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr7Smyy7eqOX62upKk1ONXruz4Mpw2BTNcZ1jNapcpRB96wma8");
+  background-image: url("images/ORG_DSC00928.jpg");
 
   /* Full height */
   height: 600px;
@@ -306,7 +306,7 @@ Turn
 }
 .parallax3 {
   /* The image used */
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEO1Pnzg_jCPHf_PCzCnjk776c7nPUEWYFIZugW6uxz2wgTBKu");
+  background-image: url("images/Screen Shot 2018-06-30 at 10.20.10 AM.png");
 
   /* Full height */
   height: 600px;
@@ -324,7 +324,7 @@ Turn
 }
 .parallax4 {
   /* The image used */
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQArwyrotMyhHuQ7JJif9C_bZCRKNWgGHcpQYn45jPdBHzCCBjd");
+  background-image: url("./images/IMG_1020.JPG");
 
   /* Full height */
   height: 600px;
@@ -336,7 +336,7 @@ Turn
   background-size: cover;
 }
 @media only screen and (max-device-width: 1366px) {
-  .parallax3 {
+  .parallax4 {
     background-attachment: scroll;
   }
 }
@@ -492,10 +492,7 @@ select {
   text-align: center;
   margin: 0 auto;
 }
-.borderName {
-  margin-left: 45%;
-  margin-right: 45%;
-}
+
 .contain {
   margin-right: 200px;
   margin-left: 200px;
@@ -505,4 +502,32 @@ select {
 #white {
   background-color: white;
   overflow: scroll;
+}
+.box {
+  border: 2px solid black;
+  margin-left: 200px;
+  width: 800px;
+  height: 300px;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  background-color: ;
+}
+.holdName {
+  /* display: inline-block; */
+  padding-bottom: 10px;
+}
+.holdDate {
+  padding-left: 30px;
+  padding-bottom: 10px;
+}
+.center-material {
+  display: inline;
+  text-align: center;
+  color: black;
+}
+.red-border {
+  width: 50%;
+  border-bottom: 1px solid #d2282e;
+  margin: 0 auto;
+  height: 16px;
 }

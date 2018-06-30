@@ -17,11 +17,11 @@
     <div class="wrapper">
         <nav id="sidebar">
             <div class="sidebar-header">
-                <h3 class='center'>Austin Loveless</h3>
+                <h3 class='center'>Go Stories</h3>
             </div>
 
             <ul class="list-unstyled components">
-                <p class='center'>Lifestyle</p>
+                <p class='center'>Navigation</p>
                 <li class="">
                     <a href="index.html">Home</a>
                     <!-- <ul class="collapse list-unstyled" id="homeSubmenu">
@@ -38,7 +38,7 @@
                 </li>
                 <li>
                     <a href="about.html">About</a>
-                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Topics</a>
+                    <!-- <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Topics</a>
                     <ul class="collapse list-unstyled" id="pageSubmenu">
                         <li>
                             <a href="travel.html">Travel</a>
@@ -52,7 +52,7 @@
                         <li>
                             <a href="life.html">Life</a>
                         </li>
-                    </ul>
+                    </ul> -->
                 </li>
                 <li>
                     <a href="yourStory.html">Your Story</a>
@@ -89,7 +89,7 @@
                                 <a class="nav-link"  href="about.html">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link"  href="contact.html">Topics</a>
+                                <a class="nav-link"  href="contact.html">contact</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="yourStory.html">Your Story</a>
@@ -110,21 +110,24 @@
 				</span>
 
 				<div class="wrap-input100 validate-input" data-validate="Name is required">
-					<input class="input100" id="name" type="text" name="name" placeholder="Name">
+					<input class="input100" id="name" type="text" name="name" placeholder="Name" required>
 					<label class="label-input100" for="name">
 						<span class="lnr lnr-user"></span>
 					</label>
 				</div>
 
 				<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-					<input class="input100" id="email" type="text" name="email" placeholder="Email">
+					<input class="input100" id="email" type="email" name="email" placeholder="Email" required>
 					<label class="label-input100" for="email">
 						<span class="lnr lnr-envelope"></span>
 					</label>
 				</div>
 
 				<div class="wrap-input100 validate-input" data-validate = "Phone is required">
-					<input class="input100" id="phone" type="text" name="phone" placeholder="Phone">
+			 <input class="input100" type="tel" id="phone" name="phone"
+           placeholder="000-000-000"
+           pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+           required />
 					<label class="label-input100" for="phone">
 						<span class="lnr lnr-phone-handset"></span>
 					</label>

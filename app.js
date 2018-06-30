@@ -14,6 +14,7 @@ $.fn.scrollView = function() {
     );
   });
 };
+
 $("#js-btn").click(function(event) {
   event.preventDefault();
   $("#js-section").scrollView();
@@ -85,6 +86,7 @@ function renderContent() {
   var newName = localStorage.getItem("nameInput");
   var newDate = localStorage.getItem("dateInput");
   var newContent = localStorage.getItem("content");
+
   //setting innerHTML
   holdTitle.innerHTML = newTitle;
   holdName.innerHTML = newName;

@@ -141,7 +141,12 @@ textarea:-ms-input-placeholder {
 button {
   outline: none !important;
   border: none;
-  background: #f7db21;
+  background: red;
+}
+.formButton {
+  outline: none !important;
+  border: none;
+  background: #e6e600;
 }
 
 button:hover {
@@ -160,7 +165,7 @@ iframe {
 /*//////////////////////////////////////////////////////////////////
 [ Contact ]*/
 
-.container-contact100 {
+.container-form100 {
   width: 100%;
   min-height: 100vh;
   display: -webkit-box;
@@ -173,7 +178,22 @@ iframe {
   align-items: center;
   padding: 15px;
   background: #7386d5;
-  border-radius: 10%;
+  border-radius: 6%;
+}
+.container-contact100 {
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background: grey;
+  border-radius: 6%;
 }
 
 .wrap-contact100 {
@@ -303,7 +323,7 @@ textarea.input100 {
 
 /*------------------------------------------------------------------
 [ Button ]*/
-.container-contact100-form-btn {
+.act100-form-btn {
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
